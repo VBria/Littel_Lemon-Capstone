@@ -1,0 +1,67 @@
+{
+  "name": "little-lemon-table-reservation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lottiefiles/lottie-interactivity": "^1.6.2",
+    "@lottiefiles/lottie-player": "^2.0.2",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@studio-freight/lenis": "^1.0.26",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "credit-card-validator": "^1.0.8",
+    "dayjs": "^1.11.9",
+    "email-validator": "^2.0.4",
+    "formik": "^2.4.3",
+    "framer-motion": "^10.15.1",
+    "libphonenumber-js": "^1.10.44",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-dom": "^18.2.0",
+    "react-focus-on": "^3.9.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest-canvas-mock": "^2.5.2",
+    "jest-localstorage-mock": "^2.4.26"
+  },
+  "jest": {
+    "resetMocks": false
+  }
+}

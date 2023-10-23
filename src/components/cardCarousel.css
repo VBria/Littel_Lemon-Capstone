@@ -1,0 +1,8 @@
+.cardCarouselFrame::-webkit-scrollbar {
+    display: none;
+}
+
+.cardCarouselFrame {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
